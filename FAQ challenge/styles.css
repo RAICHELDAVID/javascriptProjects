@@ -1,0 +1,48 @@
+
+body{
+  background-color: aliceblue;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: goldenrod;
+}
+.question-div{
+  background: white;
+}
+.question-div{
+  margin-bottom: 20px;
+}
+button{
+  color: goldenrod;
+  border: 1px solid goldenrod;
+  margin-left: 19px;
+
+}
+.answer-div{
+  display: none;
+}
+.show-answer .answer-div{
+  display: block;
+}
+.minus{
+  display: none;
+}
+.show-answer .minus{
+  display: inline;
+}
+.show-answer .plus{
+  display: none;
+}
+/* .plus{
+  display: inline;
+} */
+
+
+.question-title{
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
